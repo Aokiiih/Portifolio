@@ -1,6 +1,9 @@
 .tecnologia-bg {
   background-color: var(--cor-11);
-  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+  box-shadow:  inset 0 80px var(--cor-0), inset 0  0px var(--cor-0);
+  /*O comando box shadow, remove uma parcela do background o substituindo para que uma imagem possa se 
+  aparecer sobre o background*/
+  /* E o "inset" é responsavel por complemetar as laterais do box-shadow */
 }
 
 .tecnologia {
